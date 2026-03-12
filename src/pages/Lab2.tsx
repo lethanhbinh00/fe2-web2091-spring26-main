@@ -29,9 +29,9 @@ function Lab2() {
     ]
 
     const data1 = [
-        {key: "1", Name: "Nguyen Van A", Email: "nguyenvana@example.com", Status: "Active"},
-        {key: "2", Name: "Tran Van B", Email: "tranvanb@example.com", Status: "Inactive"},
-        {key: "3", Name: "Le Thi C", Email: "lethic@example.com", Status: "Active"},
+        {key: "1", Name: "Nguyen Van A", Email: "nguyenvana@example.com", Status: "active"},
+        {key: "2", Name: "Tran Van B", Email: "tranvanb@example.com", Status: "inactive"},
+        {key: "3", Name: "Le Thi C", Email: "lethic@example.com", Status: "active"},
     ]
 
     const columns2 = [
