@@ -3,12 +3,12 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import "antd/dist/reset.css";
-import Lab3 from "./pages/Lab3";
+import Lab4 from "./pages/Lab4";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
-      <Lab3 />
+      <Lab4 />
     </BrowserRouter>
   </StrictMode>
 );
