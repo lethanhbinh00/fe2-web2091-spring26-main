@@ -48,39 +48,22 @@ function Lab5() {
   }, [data, keyword]);
 
   const columns = [
-    {
-      title: "ID",
-      dataIndex: "id",
-    },
-    {
-      title: "Ảnh",
-      dataIndex: "image",
+    { title: "ID", dataIndex: "id"},
+    { title: "Ảnh", dataIndex: "image",
       render: (url: string) =>
-        url ? <Image src={url} width={60} /> : <span>Không có ảnh</span>,
+        url ? <Image src={url} width={60} /> : <span>Không có ảnh</span>
     },
-    {
-      title: "Tên truyện",
-      dataIndex: "title",
-    },
-    {
-      title: "Tác giả",
-      dataIndex: "author",
-    },
-    {
-      title: "Mô tả",
-      dataIndex: "description",
-    },
-    {
-      title: "Created At",
-      dataIndex: "createdAt",
+    { title: "Tên truyện", dataIndex: "title"},
+    { title: "Tác giả", dataIndex: "author"},
+    { title: "Mô tả", dataIndex: "description"},
+    { title: "Ngày tạo", dataIndex: "createdAt",
       render: (date: string) =>
         date ? new Date(date).toLocaleDateString("vi-VN") : "Không có ngày",
     },
-    {
-      title: "Action",
+    { title: "Hành động",
       render: (_: unknown, record: Story) => (
         <Popconfirm
-          title="Bạn có chắc muốn xóa truyện này?"
+          title="Bạn có chắc chắc muốn xóa truyện này không?"
           onConfirm={() => handleDelete(record.id)}
           okText="Xóa"
           cancelText="Hủy"
