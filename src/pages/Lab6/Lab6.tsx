@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { Table, Image, Spin, Input, Button, Popconfirm, message } from "antd";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 interface Story {
   id: number;
@@ -12,9 +13,10 @@ interface Story {
   createdAt?: string;
 }
 
-function Lab5() {
+function Lab6() {
   const [keyword, setKeyword] = useState("");
   const queryClient = useQueryClient();
+  const nav = useNavigate();
 
   const { data = [], isLoading, isError } = useQuery<Story[]>({
     queryKey: ["stories"],
@@ -73,8 +75,8 @@ function Lab5() {
             Xóa
           </Button>
         </Popconfirm>
-        <Button type="primary" style={{marginLeft: 8}}>
-          Sửa
+        <Button type="primary" style={{marginLeft: 8}} onClick={() => nav(`/stories/edit/${record.id}`)}>
+          Sửa 
         </Button>
         </>
       ),
@@ -105,4 +107,4 @@ function Lab5() {
   );
 }
 
-export default Lab5;
+export default Lab6;

@@ -5,10 +5,10 @@
     {
       "id": 1,
       "image": "https://picsum.photos/100/100?1",
-      "title": "Doraemon",
+      "title": "Doraemon update",
       "author": "Fujiko F. Fujio",
       "description": "Truyện tranh thiếu nhi nổi tiếng của Nhật Bản",
-      "createdAt": "2026-03-19T10:00:00.000Z"
+      "createdAt": "2026-03-21"
     },
     {
       "id": 2,
