@@ -12,56 +12,44 @@
       "password": "$2a$10$7Vm/EwD9lRJ5zjXVK0qCr.LTNym6BOQX8ilQ6tS0rmDCCBO.ZFOKm",
       "username": "admin",
       "id": 2
+    },
+    {
+      "email": "binh1gg@gmail.com",
+      "password": "$2a$10$89D3bKdGaVrY.Lrsv1mbt.Ublda0TT2tb1mYpOPN4ILzJtOHIDGvm",
+      "username": "binh",
+      "id": 3
+    },
+    {
+      "email": "adminvdv@gmail.com",
+      "password": "$2a$10$VY6BlTgTmb4PYuj6yNjFQ.02646rGOG8hOru8VX/pCTslawWbtDRS",
+      "username": "bsbuns",
+      "id": 4
     }
   ],
   "stories": [
     {
-      "id": 1,
-      "image": "https://picsum.photos/100/100?1",
-      "title": "Doraemon update",
-      "author": "Fujiko F. Fujio",
-      "description": "Truyện tranh thiếu nhi nổi tiếng của Nhật Bản",
-      "createdAt": "2026-03-21"
-    },
-    {
-      "id": 2,
-      "image": "https://picsum.photos/100/100?2",
-      "title": "Conan",
-      "author": "Aoyama Gosho",
-      "description": "Thám tử lừng danh Conan",
-      "createdAt": "2026-03-18T09:30:00.000Z"
-    },
-    {
-      "id": 3,
-      "image": "https://picsum.photos/100/100?3",
-      "title": "Naruto",
-      "author": "Masashi Kishimoto",
-      "description": "Câu chuyện về ninja làng Lá",
-      "createdAt": "2026-03-17T08:15:00.000Z"
-    },
-    {
       "id": 4,
       "image": "https://picsum.photos/100/100?4",
-      "title": "One Piece",
+      "title": "fdndn",
       "author": "Eiichiro Oda",
       "description": "Hành trình trở thành vua hải tặc",
       "createdAt": "2026-03-16T14:20:00.000Z"
     },
     {
-      "id": 5,
-      "image": "https://picsum.photos/100/100?5",
-      "title": "Bleach",
-      "author": "Tite Kubo",
-      "description": "Cuộc chiến của các tử thần",
-      "createdAt": "2026-03-15T11:45:00.000Z"
+      "title": "mgfm",
+      "id": 6
     },
     {
-      "id": 6,
-      "image": "https://picsum.photos/100/100?6",
-      "title": "Dragon Ball",
-      "author": "Akira Toriyama",
-      "description": "Hành trình tìm ngọc rồng",
-      "createdAt": "2026-03-14T07:10:00.000Z"
+      "title": "gfmfm",
+      "id": 7
+    },
+    {
+      "title": "mgfm",
+      "id": 9
+    },
+    {
+      "title": "mgfmf",
+      "id": 10
     }
   ]
 }
